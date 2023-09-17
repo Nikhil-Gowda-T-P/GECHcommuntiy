@@ -76,4 +76,23 @@ Submit a pull request with a clear description of your changes.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## SNAPSHOTS
+
+
+
+
+![Screenshot (448) - Copy](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/ec69a87e-d83f-4977-9b1b-8d0f003378dd)
+
+
+
+![Screenshot (448)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/ae3c4932-0a99-4744-9ffe-960a1b53328d)
+![Screenshot (450) - Copy](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/e3a2d3bb-6a57-45e5-8a19-244b3d68dd79)
+![Screenshot (449)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/0e84209f-de5f-4d93-a003-7b0c672798bb)![Screenshot (452)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/10b65935-353e-4d17-921e-3a9822699bc2)
+![Screenshot (451)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/f9cb88b9-c4e6-49ae-b6c4-1a59aeb68c9a)
+![Screenshot (454)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/3de0b8e0-b324-41cc-b3c5-ff33425ed185)
+![Screenshot (453)](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/7ac658b0-eeb4-487e-b206-5eb6a26b7eb5)
+
+![Screenshot (449) - Copy](https://github.com/Nikhil-Gowda-T-P/GECHcommuntiy/assets/76807414/f0a002da-b282-432d-98e9-69cab262d937)
+
+
 Thank you for using the College Community Web Application! We hope it enhances your college experience and fosters a sense of community among students. If you have any questions or encounter issues, please feel free to reach out to us. Happy exploring!
