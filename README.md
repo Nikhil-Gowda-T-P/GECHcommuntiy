@@ -31,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
  ```bash
  git clone https://github.com/yourusername/college-community-app.git
  cd college-community-app
-python app.py```
+python app.py ```
 
 Features
 1. Product Marketplace
