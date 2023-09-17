@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>club</title>
+</head>
+<style>
+  .format-container {
+  width: 1342px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+.club_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 2px 0;
+}
+.club_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  margin: 20px ;
+  font-family: sans-serif;
+  overflow: hidden;
+
+  border-radius: 28px;
+}
+.club-item_link {
+  display: block;
+  padding: 30px 20px;
+  background: #121212;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.club-item_link:hover,
+.club-item_link:hover .club-item_date {
+  text-decoration: none;
+  color: #fff;
+}
+.club-item_link:hover,
+.club-item_link:hover .club-item_date1 {
+  text-decoration: none;
+  color: #fff;
+}
+.club-item_link:hover,
+.club-item_link:hover .club-item_date2 {
+  text-decoration: none;
+  color: #fff;
+}
+.club-item_link:hover .club-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.club-item_title {
+  min-height: 40px;
+  margin: 0 0 0px;
+  padding-top: 4px;
+  text-align: right;
+  overflow: hidden;
+
+  font-weight: 1000;
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 3px;
+  z-index: 2;
+  position: relative;
+}
+
+.club-item_date-box {
+  font-size: 20px;
+  color: #fff;
+
+  z-index: 2;
+  position: relative;
+}
+.club-item_date {
+  font-weight: bold;
+  color: #f9b234;
+
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.club-item_date1 {
+  font-weight: bold;
+  color: #952aff;
+
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.club-item_date2 {
+  font-weight: bold;
+  color: #3ecd5e;
+
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.club-item_date3 {
+  font-weight: bold;
+  color: #e44002;
+
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.club-item_bg {
+  height: 128px;
+  width: 170px;
+  background-color: #f9b234;
+  z-index: 1;
+  position: absolute;
+  top: -55px;
+  right: -85px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.club_item:nth-child(2n) .club-item_bg  {
+  background-color: #952aff;
+}
+.club_item:nth-child(3n) .club-item_bg {
+  background-color: #3ecd5e;
+}
+.club_item:nth-child(4n) .club-item_bg {
+  background-color: #e44002;
+}
+.club_item:nth-child(5n) .club-item_bg {
+  background-color: #cd3e94;
+}
+.club_item:nth-child(6n) .club-item_bg {
+  background-color: #4c49ea;
+}
+
+@media only screen and (max-width: 979px) {
+  .club_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .club-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .format-container {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .club_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .club-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .club-item_link {
+    padding: 22px 40px;
+  }
+  .club-item_date-box {
+    font-size: 16px;
+  }
+}
+
+.btn0{
+    padding: 7px 50px 7px 50px;
+    background: linear-gradient(90deg, #292940, #422536);
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.btn0:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(246, 244, 247, 0.971);
+}
+</style>
+<body>
+   
+<div class="format-container">
+    {% for i in range(4) %}
+  <div class="club_box">
+    <div class="club_item">
+      <div class="club-item_link">
+        <div class="club-item_bg"></div>
+        <div class="club-item_title">GLUE </div>
+        <p style="color: #fff; margin-left:61rem; overflow:hidden; z-index:2; position: relative; font-size: 20px;">GECH Linux Users Enthusiastic</p>
+        <button class="btn0">Enroll</button>
+        <div class="club-item_date-box">
+          Start:
+          <span class="club-item_date">
+            04.11.2022
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</body>
+</html>

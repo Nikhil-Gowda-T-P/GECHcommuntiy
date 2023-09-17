@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>buy</title>
+</head>
+<style>
+
+
+body {
+  background-color: #1a1a1a;
+}
+
+.buy-card{
+    margin: 40px 40px 40px 40px ;
+    border-radius: 10px;
+    background-color: #292929;
+    width: 400px;
+    height: 440px;
+    display: inline-block;
+}
+
+.buy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(246, 244, 247, 0.971);
+}
+
+.img{
+padding-top: 50px;
+padding-left: 120px;
+}
+
+.p{
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn1 {
+    font-size: 16px;
+    background-color:  #000;
+    font-weight: 300;
+    padding: 10px 15px 10px 15px;
+    color: #ccc;
+    margin-left: 9.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    }
+
+.btn1:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    background-color: #000;
+    border: none;
+}
+
+</style>
+<body>
+    {% for i  in range(img_list|length) %}
+        <div class="buy-card">
+            <div class="img">
+                <img src="data:image/jpeg;base64,{{ img_list[i] }}" width="140px" height="160px" style="border-radius: 10px;"/>
+            </div>
+            <p class="p">{{ products[i].product_id }}</p>
+            <p class="p">product :{{ products[i].product_name }}</p>
+              
+                <p class="p">price :{{ products[i].price }}</p>
+                <a href="/buy_confirmation/{{products[i].product_id}}"><button class="btn1">buy now </button> </a>
+    
+                
+        </div>
+        {% endfor %}
+    
+</body>
+</html>
