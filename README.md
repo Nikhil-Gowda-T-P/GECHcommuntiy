@@ -31,8 +31,8 @@ Before you begin, ensure you have met the following requirements:
  ```bash
  git clone https://github.com/yourusername/college-community-app.git
  cd college-community-app
-python app.py  bash```
-
+python app.py  bash
+```
 Features
 1. Product Marketplace
 Students can buy and sell products within the college community.
